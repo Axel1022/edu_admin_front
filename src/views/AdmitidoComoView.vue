@@ -1,5 +1,4 @@
 <template>
-  <h1>Admitido</h1>
   <Tabla />
 </template>
 

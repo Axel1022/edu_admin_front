@@ -59,7 +59,7 @@
           Aceptar
         </button>
         <a
-          href="http://localhost:5173/edu-admin/carreras"
+          href="http://localhost:5173/edu-admin/estudiantes"
           class="btn btn-secondary w-100"
         >
           Cancelar
