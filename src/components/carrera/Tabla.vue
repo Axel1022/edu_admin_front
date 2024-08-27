@@ -1,11 +1,11 @@
 <template>
   <div class="container mt-5">
     <div class="d-flex justify-content-between align-items-center mb-3">
-      <a href="/edu-admin/carrera/formulario" class="btn btn-success float-end">Agregar Materia</a>
+      <a href="/edu-admin/carrera/formulario" class="btn btn-success float-end">Agregar Carrera</a>
     </div>
     <div class="card shadow-sm">
       <div class="card-header bg-primary text-white">
-        <h3 class="mb-0 text-center">Lista de Materias</h3>
+        <h3 class="mb-0 text-center">Lista de Carreras</h3>
       </div>
       <div class="card-body">
         <table class="table table-striped table-hover">

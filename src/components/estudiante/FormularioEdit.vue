@@ -65,7 +65,6 @@
           Cancelar
         </a>
       </form>
-
       <!-- {{ formData }} -->
     </div>
   </div>
@@ -131,13 +130,16 @@ const procesarForm = async () => {
 
   try {
     if (estudianteId.value) {
-      const response = await fetch(`${API}/api/Estudiantes/${estudianteId.value}`, {
-        method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(estudiante),
-      });
+      const response = await fetch(
+        `${API}/api/Estudiantes/${estudianteId.value}`,
+        {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(estudiante),
+        }
+      );
       if (response.status === 204) {
         router.push("/edu-admin/estudiantes");
       } else alert("Hay bobo");

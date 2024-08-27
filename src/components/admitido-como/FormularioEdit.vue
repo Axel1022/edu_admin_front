@@ -25,7 +25,7 @@
           Cancelar
         </a>
       </form>
-      {{ formData }}
+      <!-- {{ formData }} -->
       <!-- {{ admitidoComoId }} -->
       <!-- <p>ID de la materia: {{ admitidoComoId }}</p> -->
     </div>

@@ -2,7 +2,7 @@
   <div class="container shadow p-5 my-5 mx-auto rounded">
     <div class="card-body">
       <form @submit.prevent="procesarForm" class="form">
-        <h1 class="text-center mb-4">Editar Materia</h1>
+        <h1 class="text-center mb-4">Editar Carrera</h1>
         <div class="form-group mb-3">
           <label for="nombre" class="form-label">Nombre</label>
           <input
